@@ -18,12 +18,16 @@ Error Handling: Invalid ObjectId errors and cases where no users are found are h
 Environment Configuration: The MONGO_URI connection string is stored in the environment variables for secure access.
 
 Steps to setup and run this code:
->>>>git clone https://github.com/gadresaisudha/Centivo.git
->>>cd Centivo
->>>npm install
+git clone https://github.com/gadresaisudha/Centivo.git
+
+cd Centivo
+
+npm install
+
 create a .env file locally and update it with following data:
 MONGO_URI='mongodb+srv://saisudhagadrewg542:bQQtR4gnMUeHhqWM@sudhagadre.3mjut7o.mongodb.net/?retryWrites=true&w=majority&appName=SudhaGadre'
 PORT=5000
+
 >>>node index.js
 
 you can query the from the browser using
